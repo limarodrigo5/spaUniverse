@@ -1,0 +1,28 @@
+body {
+  background-image: url("../assets/mountains-universe-3.png");
+  background-size: cover;
+}
+
+#exploration-page {
+  color: var(--tt-text);
+}
+
+#exploration-page h1 {
+  position: absolute;
+  top: 18.5rem;
+  left: 10.2rem;
+  width: 23.6rem;
+  height: 6rem;
+  font-size: 4.8rem;
+  margin-top: 0;
+}
+
+#exploration-page p {
+  position: absolute;
+  top: 26.1rem;
+  left: 10.2rem;
+  width: 64.8rem;
+  height: 20.3rem;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+}

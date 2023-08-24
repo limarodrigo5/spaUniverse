@@ -1,0 +1,24 @@
+#alert-error {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  margin-top: -10rem;
+  animation: jumpAnimation 4s ease-in-out infinite;
+}
+
+#alert-error h1 {
+  color: #00e6b3;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-top: -1.4rem;
+}
+
+@keyframes jumpAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3rem);
+  }
+}

@@ -1,0 +1,70 @@
+@import url("pages/home.css");
+@import url("pages/universe.css");
+@import url("pages/exploration.css");
+@import url("pages/404.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+  --tt-text: hsla(240, 7%, 78%, 1);
+}
+
+body {
+  background-image: url("../assets/mountains-universe-1.png");
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  margin-left: 7.2rem;
+  margin-top: 4rem;
+}
+
+nav a {
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: var(--tt-text);
+  text-decoration: none;
+  z-index: 1;
+}
+
+nav a:hover {
+  color: white;
+}
+
+#home-page {
+  opacity: 0;
+  transform: translateY(-5rem);
+
+  animation: fadeSlideDownHome 2s ease forwards;
+}
+
+#universe-page,
+#exploration-page {
+  opacity: 0;
+  transform: translateY(-18rem);
+
+  animation: fadeSlideDown 3s ease forwards;
+}
+
+@keyframes fadeSlideDown {
+  to {
+    opacity: 1;
+    transform: translateY(-8rem);
+  }
+}
+
+@keyframes fadeSlideDownHome {
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}

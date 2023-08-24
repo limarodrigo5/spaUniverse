@@ -1,0 +1,43 @@
+body {
+  background-image: url("../assets/mountains-universe-1.png");
+  background-size: cover;
+}
+
+#home-page {
+  color: var(--tt-text);
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  margin-top: -10rem;
+}
+
+#home-page h1 {
+  height: 6rem;
+  width: 40rem;
+  font-size: 4.8rem;
+}
+
+#home-page button {
+  margin-top: 2.4rem;
+  width: 19.5rem;
+  height: 4.8rem;
+  border-radius: 0.5rem;
+  margin: 2.4rem auto;
+
+  padding: 1.2rem 3.2rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+  background-color: transparent;
+  color: white;
+  border: 0.2rem solid #fff;
+
+  cursor: pointer;
+}
+
+#home-page button:hover {
+  background-color: #fff;
+  color: hsla(194, 97%, 31%, 1)
+}
