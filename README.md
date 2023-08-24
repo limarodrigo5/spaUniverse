@@ -25,7 +25,7 @@ O **SPA Universe** é uma aplicação web interativa construída com HTML, CSS e
 
 ## Como Executar o Projeto
 
-1. Clone este repositório para o seu ambiente local. (Ou acesse o [GitHub Pages](https://limarodrigo5.github.io/spaUniverse/) do projeto.)
+1. Clone este repositório para o seu ambiente local. (Ou acesse o [Vercel](https://spa-universe-theta.vercel.app/) do projeto.)
 2. Navegue até o diretório do projeto.
 3. Abra o arquivo `index.html` em seu navegador favorito.
 4. Explore as diferentes seções e aproveite a jornada pelo universo! 🚀🌌
